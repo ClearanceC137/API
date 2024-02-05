@@ -1,0 +1,7 @@
+<form #basicForm="ngForm" style="padding-left: 40%;padding-bottom: 20px;" (submit)="getData(basicForm.value)">
+  <h1>Please fill in the form</h1><br>
+  <input ngModel type="text" placeholder="new_userId" name="userId"/><br>
+  <input ngModel placeholder="title" name="title"/><br>
+  <input ngModel placeholder="body" name="body"/><br>
+  <button>Submit</button>
+</form>
